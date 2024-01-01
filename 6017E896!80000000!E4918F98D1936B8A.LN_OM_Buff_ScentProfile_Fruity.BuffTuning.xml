@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="Buff" i="buff" m="buffs.buff" n="LN_OM:Buff_ScentProfile_Fruity" s="16470103198784514954">
+  <T n="audio_sting_on_add" p="InGame\Audio\Stings\sting_buff_gain.propx">39b2aa4a:00000000:8af8b916cf64c646</T>
+  <T n="audio_sting_on_remove" p="InGame\Audio\Stings\sting_buff_loss.propx">39b2aa4a:00000000:3bf33216a25546ea</T>
+  <T n="buff_description">0xFB1626B3<!--"Close to {1.SimFirstName}, the air is filled with a playful, fruity aroma, like a dance of sun-ripened berries and sweet, juicy orchard fruits. It's an invigorating and cheerful scent that tickles the senses, bringing a burst of energy and a smile to your face. Life feels a bit more vibrant and carefree in the presence of such a delightful fragrance.--></T>
+  <T n="buff_name">0xF0F92189<!--Enveloped in Fruity Whimsy--></T>
+  <T n="icon" p="InGame\UI\Icons\buffs\Preferences\buffs_BatuuMusic.png">2f7d0004:00000000:792A8C6639B6B75E</T>
+  <V n="interactions" t="enabled">
+    <U n="enabled">
+      <L n="interaction_items">
+        <T>74258<!--reaction_SmellGood--></T>
+      </L>
+    </U>
+  </V>
+  <T n="mood_type">14640<!--Mood_Happy--></T>
+  <T n="mood_weight">2</T>
+  <T n="visible">True</T>
+</I>

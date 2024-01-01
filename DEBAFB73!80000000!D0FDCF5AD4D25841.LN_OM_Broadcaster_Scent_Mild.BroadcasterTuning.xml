@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="Broadcaster" i="broadcaster" m="broadcasters.broadcaster" n="LN_OM:Broadcaster_Scent_Mild" s="15059420718021367873">
+  <V n="allow_sim_test" t="enabled">
+    <L n="enabled">
+      <L>
+        <V t="mood">
+          <U n="mood">
+            <T n="disallow">True</T>
+            <T n="mood">27149<!--Mood_Asleep--></T>
+          </U>
+        </V>
+      </L>
+    </L>
+  </V>
+  <L n="constraints">
+    <V t="line_of_sight">
+      <U n="line_of_sight">
+        <V n="temporary_los" t="enabled">
+          <U n="enabled">
+            <T n="max_line_of_sight_radius">5</T>
+          </U>
+        </V>
+      </U>
+    </V>
+  </L>
+  <L n="effects">
+    <V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <V n="buff_reason" t="enabled">
+            <T n="enabled">0xA7D58BCE<!--(From Sweet Scent)--></T>
+          </V>
+          <T n="buff_type">9384232561029461363<!--LN_OM:Buff_ScentProfile_Sweet--></T>
+        </U>
+        <L n="tests">
+          <L>
+            <V t="trait">
+              <U n="trait">
+                <L n="whitelist_traits">
+                  <T>9945737608863005455<!--LN_OM:trait_Hidden_ScentProfile_Sweet--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <V n="buff_reason" t="enabled">
+            <T n="enabled">0xC1720DC7<!--(From Floral Scent)--></T>
+          </V>
+          <T n="buff_type">14436677080480705991<!--LN_OM:Buff_ScentProfile_Floral--></T>
+        </U>
+        <L n="tests">
+          <L>
+            <V t="trait">
+              <U n="trait">
+                <L n="whitelist_traits">
+                  <T>11314032860035484523<!--LN_OM:trait_Hidden_ScentProfile_Floral--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+	<V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <V n="buff_reason" t="enabled">
+            <T n="enabled">0xDD3F6CA1<!--(From Fruity Scent)--></T>
+          </V>
+          <T n="buff_type">14436677080480705991<!--LN_OM:Buff_ScentProfile_Floral--></T>
+        </U>
+        <L n="tests">
+          <L>
+            <V t="trait">
+              <U n="trait">
+                <L n="whitelist_traits">
+                  <T>16470103198784514954<!--LN_OM:Buff_ScentProfile_Fruity--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <V n="buff_reason" t="enabled">
+            <T n="enabled">0x3A5F2684<!--(From Earthy Scent)--></T>
+          </V>
+          <T n="buff_type">10321386364868889716<!--LN_OM:Buff_ScentProfile_Earthy--></T>
+        </U>
+        <L n="tests">
+          <L>
+            <V t="trait">
+              <U n="trait">
+                <L n="whitelist_traits">
+                  <T>13918711011177595000<!--LN_OM:trait_Hidden_ScentProfile_Earthy--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <V n="buff_reason" t="enabled">
+            <T n="enabled">0x7EA6F68C<!--(From Musky Scent)--></T>
+          </V>
+          <T n="buff_type">12335170627876191433<!--LN_OM:Buff_ScentProfile_Musk--></T>
+        </U>
+        <L n="tests">
+          <L>
+            <V t="trait">
+              <U n="trait">
+                <L n="whitelist_traits">
+                  <T>14343410917977084813<!--LN_OM:trait_Hidden_ScentProfile_Musk--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+  </L>
+</I>

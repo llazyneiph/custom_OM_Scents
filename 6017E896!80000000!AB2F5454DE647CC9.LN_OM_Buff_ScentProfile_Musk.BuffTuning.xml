@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="Buff" i="buff" m="buffs.buff" n="LN_OM:Buff_ScentProfile_Musk" s="12335170627876191433">
+  <T n="audio_sting_on_add" p="InGame\Audio\Stings\sting_buff_gain.propx">39b2aa4a:00000000:8af8b916cf64c646</T>
+  <T n="audio_sting_on_remove" p="InGame\Audio\Stings\sting_buff_loss.propx">39b2aa4a:00000000:3bf33216a25546ea</T>
+  <T n="buff_description">0x4BEB14C5<!--In the vicinity of {1.SimFirstName}, you're enveloped in a deep, musky aroma. It's a complex and intriguing scent, evoking images of ancient forests and untamed wilderness. This primal, alluring fragrance stirs something fundamental within, awakening a sense of raw strength and instinctual connection. It's both mysterious and intensely captivating.--></T>
+  <T n="buff_name">0x529D522B<!--Embraced by Musk--></T>
+  <T n="icon" p="InGame\UI\Icons\buffs\Preferences\buffs_BatuuMusic.png">2f7d0004:00000000:571410115DA672B5</T>
+  <V n="interactions" t="enabled">
+    <U n="enabled">
+      <L n="interaction_items">
+        <T>74258<!--reaction_SmellGood--></T>
+      </L>
+    </U>
+  </V>
+  <T n="mood_type">14634<!--Mood_Confident--></T>
+  <T n="mood_weight">2</T>
+  <T n="visible">True</T>
+</I>

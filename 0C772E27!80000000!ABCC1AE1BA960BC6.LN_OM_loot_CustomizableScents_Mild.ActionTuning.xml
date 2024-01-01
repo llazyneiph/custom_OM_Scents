@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="LN_OM:loot_CustomizableScents_Mild" s="12379299032535010246">
+  <L n="loot_actions">
+    <V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <T n="buff_type">10155358889015683111<!--LN_OM:Buff_CustomizableScents_Mild--></T>
+        </U>
+      </U>
+    </V>
+    <V t="buff_removal">
+      <U n="buff_removal">
+        <L n="buffs_to_remove">
+          <T>14617905107972951246<!--Buff: LN_OM:Buff_CustomizableScents_Moderate--></T>
+          <T>13818155782685167646<!--Buff: LN_OM:Buff_CustomizableScents_Overpowering--></T>
+          <T>9857700552226771208<!--Buff: LN_OM:Buff_CustomizableScents_Strong--></T>
+        </L>
+        <E n="subject">Actor</E>
+      </U>
+    </V>
+    <V t="notification_and_dialog">
+      <U n="notification_and_dialog">
+        <V n="dialog" t="notification">
+          <U n="notification">
+            <V n="icon" t="enabled">
+              <V n="enabled" t="resource_key">
+                <U n="resource_key">
+                  <T n="key" p="InGame\UI\Icons\Headlines\Final\headline_cellphoneold.png">2f7d0004:00000000:feed889af683ed97</T>
+                </U>
+              </V>
+            </V>
+            <V n="secondary_icon" t="enabled">
+              <V n="enabled" t="participant" />
+            </V>
+            <V n="text" t="single">
+              <T n="single">0x998F979D<!--{0.SimFirstName}'s scent intensity has been changed to mild.--></T>
+            </V>
+            <E n="visual_type">INFORMATION</E>
+          </U>
+        </V>
+      </U>
+    </V>
+  </L>
+</I>

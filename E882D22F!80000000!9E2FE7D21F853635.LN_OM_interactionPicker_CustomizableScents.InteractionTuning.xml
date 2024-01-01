@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="InteractionPickerSuperInteraction" i="interaction" m="interactions.picker.interaction_picker" n="LN_OM:interactionPicker_CustomizableScents" s="11398584071555986997">
+  <V n="_saveable" t="disabled" />
+  <V n="content_score" t="disabled" />
+  <T n="display_name">0xF16695BC<!--Scent--></T>
+  <U n="display_name_text_tokens">
+    <L n="tokens">
+      <V t="participant_type">
+        <U n="participant_type">
+          <V n="objects" t="from_participant">
+            <U n="from_participant">
+              <E n="participant">Actor</E>
+            </U>
+          </V>
+        </U>
+      </V>
+      <V t="participant_type">
+        <U n="participant_type">
+          <V n="objects" t="from_participant">
+            <U n="from_participant">
+              <E n="participant">Object</E>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+  </U>
+  <L n="interaction_category_tags">
+    <E>INVALID</E>
+  </L>
+  <L n="possible_actions">
+    <!--Strength-->
+    <V t="literal">
+      <U n="literal">
+        <L n="continuation">
+          <U>
+            <T n="affordance">
+              <V t="literal">
+                <U n="literal">
+                  <L n="continuation">
+                    <U>
+                      <T n="affordance">15406479328546101501<!--LN_OM:imin_CustomizableScents_Undetectable--></T>
+                    </U>
+                  </L>
+                  <V n="icon" t="enabled">
+                    <V n="enabled" t="resource_key">
+                      <U n="resource_key">
+                        <T n="key" p="InGame\UI\Icons\Headlines\Final\headline_thumbup.png">2f7d0004:00000000:f8fd1d05fbeac837</T>
+                      </U>
+                    </V>
+                  </V>
+                  <V n="name" t="enabled">
+                    <T n="enabled">0x41DB263F<!--Change Scent to Undetectable--></T>
+                  </V>
+                  <V n="enable_tests" t="enabled">
+                    <L n="enabled">
+                      <L>
+                        <V t="buff">
+                          <U n="buff">
+                            <E n="subject">Actor</E>
+                            <V n="whitelist" t="enabled">
+                              <L n="enabled">
+                                <T>10155358889015683111<!--LN_OM:Buff_CustomizableScents_Mild--></T>
+                                <T>14617905107972951246<!--LN_OM:Buff_CustomizableScents_Moderate--></T>
+                                <T>9857700552226771208<!--LN_OM:Buff_CustomizableScents_Strong--></T>
+                                <T>13818155782685167646<!--LN_OM:Buff_CustomizableScents_Overpowering--></T>
+                              </L>
+                            </V>
+                          </U>
+                        </V>
+                      </L>
+                    </L>
+                  </V>
+                </U>
+              </V>
+            </T>
+          </U>
+        </L>
+      </U>
+    </V>
+    <V t="literal">
+      <U n="literal">
+        <L n="continuation">
+          <U>
+            <T n="affordance">15329879330630368427<!--LN_OM:imin_CustomizableScents_Mild--></T>
+          </U>
+        </L>
+        <V n="icon" t="enabled">
+          <V n="enabled" t="resource_key">
+            <U n="resource_key">
+              <T n="key" p="InGame\UI\Icons\Headlines\Final\headline_thumbup.png">2f7d0004:00000000:f8fd1d05fbeac837</T>
+            </U>
+          </V>
+        </V>
+        <V n="name" t="enabled">
+          <T n="enabled">0x2D0BE517<!--Change Scent to Mild--></T>
+        </V>
+        <V n="enable_tests" t="enabled">
+          <L n="enabled">
+            <L>
+              <V t="buff">
+                <U n="buff">
+                  <E n="subject">Actor</E>
+                  <L n="blacklist">
+                    <T>10155358889015683111<!--LN_OM:Buff_CustomizableScents_Mild--></T>
+                  </L>
+                </U>
+              </V>
+            </L>
+          </L>
+        </V>
+      </U>
+    </V>
+    <V t="literal">
+      <U n="literal">
+        <L n="continuation">
+          <U>
+            <T n="affordance">16203472246441866090<!--LN_OM:imin_CustomizableScents_Moderate--></T>
+          </U>
+        </L>
+        <V n="icon" t="enabled">
+          <V n="enabled" t="resource_key">
+            <U n="resource_key">
+              <T n="key" p="InGame\UI\Icons\Headlines\Final\headline_thumbdown.png">2f7d0004:00000000:db83aa2bc456491c</T>
+            </U>
+          </V>
+        </V>
+        <V n="name" t="enabled">
+          <T n="enabled">0xAB15AF53<!--Change Scent to Moderate--></T>
+        </V>
+        <V n="enable_tests" t="enabled">
+          <L n="enabled">
+            <L>
+              <V t="buff">
+                <U n="buff">
+                  <E n="subject">Actor</E>
+                  <L n="blacklist">
+                    <T>14617905107972951246<!--LN_OM:Buff_CustomizableScents_Moderate--></T>
+                  </L>
+                </U>
+              </V>
+            </L>
+          </L>
+        </V>
+      </U>
+    </V>
+    <V t="literal">
+      <U n="literal">
+        <L n="continuation">
+          <U>
+            <T n="affordance">14122103203892250324<!--LN_OM:imin_CustomizableScents_Strong--></T>
+          </U>
+        </L>
+        <V n="icon" t="enabled">
+          <V n="enabled" t="resource_key">
+            <U n="resource_key">
+              <T n="key" p="InGame\UI\Icons\Headlines\Final\headline_happy_v4.png">2f7d0004:00000000:4f27caa127291bd3</T>
+            </U>
+          </V>
+        </V>
+        <V n="name" t="enabled">
+          <T n="enabled">0xE117E1E2<!--Change Scent to Strong--></T>
+        </V>
+        <V n="enable_tests" t="enabled">
+          <L n="enabled">
+            <L>
+              <V t="buff">
+                <U n="buff">
+                  <E n="subject">Actor</E>
+                  <L n="blacklist">
+                    <T>9857700552226771208<!--LN_OM:Buff_CustomizableScents_Strong--></T>
+                  </L>
+                </U>
+              </V>
+            </L>
+          </L>
+        </V>
+      </U>
+    </V>
+    <V t="literal">
+      <U n="literal">
+        <L n="continuation">
+          <U>
+            <T n="affordance">15719145101243585418<!--LN_OM:imin_CustomizableScents_Overpowering--></T>
+          </U>
+        </L>
+        <V n="icon" t="enabled">
+          <V n="enabled" t="resource_key">
+            <U n="resource_key">
+              <T n="key" p="InGame\UI\Icons\Headlines\Final\headline_happy_v5.png">2f7d0004:00000000:4f27caa127291bd2</T>
+            </U>
+          </V>
+        </V>
+        <V n="name" t="enabled">
+          <T n="enabled">0x137FB8AF<!--Change Scent to Overpowering--></T>
+        </V>
+        <V n="enable_tests" t="enabled">
+          <L n="enabled">
+            <L>
+              <V t="buff">
+                <U n="buff">
+                  <E n="subject">Actor</E>
+                  <L n="blacklist">
+                    <T>13818155782685167646<!--LN_OM:Buff_CustomizableScents_Overpowering--></T>
+                  </L>
+                </U>
+              </V>
+            </L>
+          </L>
+        </V>
+      </U>
+    </V>
+    <!--Scent Profile-->
+    <V t="literal">
+      <U n="literal">
+        <L n="continuation">
+          <U>
+            <T n="affordance">
+              <V t="literal">
+                <U n="literal">
+                  <L n="continuation">
+                    <U>
+                      <T n="affordance">11133950662384762041<!--LN_OM:imin_CustomizableScents_Profile_Sweet--></T>
+                    </U>
+                  </L>
+                  <V n="icon" t="enabled">
+                    <V n="enabled" t="resource_key">
+                      <U n="resource_key">
+                        <T n="key" p="InGame\UI\Icons\Headlines\Final\headline_thumbup.png">2f7d0004:00000000:f8fd1d05fbeac837</T>
+                      </U>
+                    </V>
+                  </V>
+                  <V n="name" t="enabled">
+                    <T n="enabled">0xA1D11D00<!--Change Scent Profile to Sweet--></T>
+                  </V>
+                  <V n="enable_tests" t="enabled">
+                    <L n="enabled">
+                      <L>
+                        <V t="trait">
+                          <U n="trait">
+                            <E n="subject">Actor</E>
+                            <L n="blacklist">
+                              <T>9945737608863005455<!--LN_OM:trait_Hidden_ScentProfile_Sweet--></T>
+                            </L>
+                          </U>
+                        </V>
+                      </L>
+                    </L>
+                  </V>
+                </U>
+              </V>
+            </T>
+          </U>
+        </L>
+      </U>
+    </V>
+    <V t="literal">
+      <U n="literal">
+        <L n="continuation">
+          <U>
+            <T n="affordance">
+              <V t="literal">
+                <U n="literal">
+                  <L n="continuation">
+                    <U>
+                      <T n="affordance">12568531652701120149<!--LN_OM:imin_CustomizableScents_Profile_Floral--></T>
+                    </U>
+                  </L>
+                  <V n="icon" t="enabled">
+                    <V n="enabled" t="resource_key">
+                      <U n="resource_key">
+                        <T n="key" p="InGame\UI\Icons\Headlines\Final\headline_thumbup.png">2f7d0004:00000000:f8fd1d05fbeac837</T>
+                      </U>
+                    </V>
+                  </V>
+                  <V n="name" t="enabled">
+                    <T n="enabled">0x408403B7<!--Change Scent Profile to Floral--></T>
+                  </V>
+                  <V n="enable_tests" t="enabled">
+                    <L n="enabled">
+                      <L>
+                        <V t="trait">
+                          <U n="trait">
+                            <E n="subject">Actor</E>
+                            <L n="blacklist">
+                              <T>11314032860035484523<!--LN_OM:trait_Hidden_ScentProfile_Floral--></T>
+                            </L>
+                          </U>
+                        </V>
+                      </L>
+                    </L>
+                  </V>
+                </U>
+              </V>
+            </T>
+          </U>
+        </L>
+      </U>
+    </V>
+    <V t="literal">
+      <U n="literal">
+        <L n="continuation">
+          <U>
+            <T n="affordance">
+              <V t="literal">
+                <U n="literal">
+                  <L n="continuation">
+                    <U>
+                      <T n="affordance">16819818576166015084<!--LN_OM:imin_CustomizableScents_Profile_Fruity--></T>
+                    </U>
+                  </L>
+                  <V n="icon" t="enabled">
+                    <V n="enabled" t="resource_key">
+                      <U n="resource_key">
+                        <T n="key" p="InGame\UI\Icons\Headlines\Final\headline_thumbup.png">2f7d0004:00000000:f8fd1d05fbeac837</T>
+                      </U>
+                    </V>
+                  </V>
+                  <V n="name" t="enabled">
+                    <T n="enabled">0x149DB53C<!--Change Scent Profile to Fruity--></T>
+                  </V>
+                  <V n="enable_tests" t="enabled">
+                    <L n="enabled">
+                      <L>
+                        <V t="trait">
+                          <U n="trait">
+                            <E n="subject">Actor</E>
+                            <L n="blacklist">
+                              <T>14595034956085737302<!--LN_OM:trait_Hidden_ScentProfile_Fruity--></T>
+                            </L>
+                          </U>
+                        </V>
+                      </L>
+                    </L>
+                  </V>
+                </U>
+              </V>
+            </T>
+          </U>
+        </L>
+      </U>
+    </V>
+    <V t="literal">
+      <U n="literal">
+        <L n="continuation">
+          <U>
+            <T n="affordance">
+              <V t="literal">
+                <U n="literal">
+                  <L n="continuation">
+                    <U>
+                      <T n="affordance">13609968091574282106<!--LN_OM:imin_CustomizableScents_Profile_Earthy--></T>
+                    </U>
+                  </L>
+                  <V n="icon" t="enabled">
+                    <V n="enabled" t="resource_key">
+                      <U n="resource_key">
+                        <T n="key" p="InGame\UI\Icons\Headlines\Final\headline_thumbup.png">2f7d0004:00000000:f8fd1d05fbeac837</T>
+                      </U>
+                    </V>
+                  </V>
+                  <V n="name" t="enabled">
+                    <T n="enabled">0xEF608F51<!--Change Scent Profile to Earthy--></T>
+                  </V>
+                  <V n="enable_tests" t="enabled">
+                    <L n="enabled">
+                      <L>
+                        <V t="trait">
+                          <U n="trait">
+                            <E n="subject">Actor</E>
+                            <L n="blacklist">
+                              <T>13918711011177595000<!--LN_OM:trait_Hidden_ScentProfile_Earthy--></T>
+                            </L>
+                          </U>
+                        </V>
+                      </L>
+                    </L>
+                  </V>
+                </U>
+              </V>
+            </T>
+          </U>
+        </L>
+      </U>
+    </V>
+    <V t="literal">
+      <U n="literal">
+        <L n="continuation">
+          <U>
+            <T n="affordance">
+              <V t="literal">
+                <U n="literal">
+                  <L n="continuation">
+                    <U>
+                      <T n="affordance">11883825738308390451<!--LN_OM:imin_CustomizableScents_Profile_Musk--></T>
+                    </U>
+                  </L>
+                  <V n="icon" t="enabled">
+                    <V n="enabled" t="resource_key">
+                      <U n="resource_key">
+                        <T n="key" p="InGame\UI\Icons\Headlines\Final\headline_thumbup.png">2f7d0004:00000000:f8fd1d05fbeac837</T>
+                      </U>
+                    </V>
+                  </V>
+                  <V n="name" t="enabled">
+                    <T n="enabled">0x227FA885<!--Change Scent Profile to Musky--></T>
+                  </V>
+                  <V n="enable_tests" t="enabled">
+                    <L n="enabled">
+                      <L>
+                        <V t="trait">
+                          <U n="trait">
+                            <E n="subject">Actor</E>
+                            <L n="blacklist">
+                              <T>14343410917977084813<!--LN_OM:trait_Hidden_ScentProfile_Musk--></T>
+                            </L>
+                          </U>
+                        </V>
+                      </L>
+                    </L>
+                  </V>
+                </U>
+              </V>
+            </T>
+          </U>
+        </L>
+      </U>
+    </V>
+    <V t="literal">
+      <U n="literal">
+        <L n="continuation">
+          <U>
+            <T n="affordance">
+              <V t="literal">
+                <U n="literal">
+                  <L n="continuation">
+                    <U>
+                      <T n="affordance">11883825738308390451<!--LN_OM:imin_CustomizableScents_Profile_Musk--></T>
+                    </U>
+                  </L>
+                  <V n="icon" t="enabled">
+                    <V n="enabled" t="resource_key">
+                      <U n="resource_key">
+                        <T n="key" p="InGame\UI\Icons\Headlines\Final\headline_thumbup.png">2f7d0004:00000000:f8fd1d05fbeac837</T>
+                      </U>
+                    </V>
+                  </V>
+                  <V n="name" t="enabled">
+                    <T n="enabled">0x2CE37D74<!--Change Scent Profile to Spicy--></T>
+                  </V>
+                  <V n="enable_tests" t="enabled">
+                    <L n="enabled">
+                      <L>
+                        <V t="trait">
+                          <U n="trait">
+                            <E n="subject">Actor</E>
+                            <L n="blacklist">
+                              <T>10698154306578746917<!--LN_OM:trait_Hidden_ScentProfile_Spicy--></T>
+                            </L>
+                          </U>
+                        </V>
+                      </L>
+                    </L>
+                  </V>
+                </U>
+              </V>
+            </T>
+          </U>
+        </L>
+      </U>
+    </V>
+  </L>
+  <U n="progress_bar_enabled">
+    <T n="bar_enabled">False</T>
+  </U>
+  <E n="target_type">OBJECT</E>
+  <L n="test_globals">
+    <V t="sim_info">
+      <U n="sim_info">
+        <V n="ages" t="specified">
+          <L n="specified">
+            <E>TEEN</E>
+            <E>YOUNGADULT</E>
+            <E>ADULT</E>
+            <E>ELDER</E>
+            <E>CHILD</E>
+            <E>INFANT</E>
+          </L>
+        </V>
+        <V n="species" t="specified">
+          <U n="specified">
+            <L n="species">
+              <E />
+            </L>
+          </U>
+        </V>
+        <E n="who">Actor</E>
+      </U>
+    </V>
+  </L>
+</I>
